@@ -1,0 +1,55 @@
+.fortune-icon{
+    height: 70px;
+    border-radius: 20px;
+  }
+
+    div{
+      border : solid;
+      color  :orange
+    }
+
+   .rock-icon{
+    background-color:transparent;
+      height:50px;
+      border-radius:50px;
+    
+   }
+
+   .paper-icon{
+    background-color:transparent;
+      height:50px;
+      border-radius:50px;
+   }
+
+  .scissors-icon{
+    background-color:transparent;
+      height:50px;
+      border-radius:50px;
+  }
+body{
+background-color:aliceblue;
+}
+ 
+.g{
+text-align: center;
+}
+
+.for{
+text-align: center;
+}
+
+.of{
+text-align: center;
+}
+
+.send-icon{
+height:9px;
+box-sizing: border-box;
+}
+
+.nut{
+background-color: white;
+border-width:2px;
+border-radius: 1px;
+
+}

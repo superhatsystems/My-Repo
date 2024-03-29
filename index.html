@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+
+ 
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+<h3 class="for">OAK HILLS INTERNATIONAL SCHOOL,LAFIA</h3>
+<P class="g">MY GAME PROJECT</P>
+
+<div><h3><p class="OF">RULES OF THE GAME
+ <b><p>rock beat scissors</p></b>
+ <b></b>
+<b> <p>paper beat rock</p></b>
+ <b> <p>scissors beat paper</p></b>
+  <p>instruction:click on any button and see the result.</p>
+</h3></p></div>
+
+    <div>
+      <h3></h3>
+      <p>Rock Paper Scissors</p>
+      <button onclick="
+        playGame('rock');
+      "><img src=/images/rock-emoji.png class="rock-icon"></button>
+  
+      <button onclick="
+        playGame('paper');
+      "><img src=/images/paper-emoji.png class="paper-icon"></button>
+  
+      <button onclick="
+        playGame('scissors');
+      "><img src=/images/scissors-emoji.png class="scissors-icon"></button>
+  
+      <p class="js-result"></p>
+      <p class="js-moves"></p>
+      <p class="js-score"></p>
+  
+      <button onclick="
+        score.wins = 0;
+        score.losses = 0;
+        score.ties = 0;
+        localStorage.removeItem('score');
+        updateScoreElement();
+      ">Reset Score</button>
+        </div>
+        <div>
+          <p>
+            <h3>
+              <img src=/images/fortune.jpg class="fortune-icon">
+            ABOUT MYSELF</h3>
+             hi guys, my name is Adewale Aseoluwa ,and i am 12 years old.<br>
+             A.K.A Ellon musk teacher.<br>
+             i want to become a doctor,computer scientist and a programmer,<br>
+             i love my programming teacher,because he teaches us well,and<br>
+             he's teaching are understandable,and he understand us well<br>
+            what i think about programming, is that it's very nice and<br>
+            quite easy,and i wish to become the greatest programmer,and<br>
+            program an AI(artificial inteligence).God held me.<br>
+          </p>
+        </div>
+        <div><p>tell me what you think about my project
+        </p>
+
+
+ <input placeholder="type what you think......"><button class="nut" onclick=" 
+ alert('thanks for your comment')
+ "><img src=/images/send.jpg class="send-icon"></button>
+        </div>
+
+        <div>
+          <a href="sourcecodes.html">check out my source codes</a>
+          </div>
+    <script src="script.js"></script>
+  </body>
+</html>
