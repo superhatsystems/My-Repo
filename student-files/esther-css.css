@@ -1,0 +1,63 @@
+body{
+    background-color :aqua;
+  }
+
+  P{
+    color:red
+  }
+  .abt-me-link{
+    display:block;
+
+  }
+  h3{
+    background-color:rgb(6, 1, 27);
+    color:whitesmoke;
+    border:dotted 2px purple
+  }
+
+  div{
+    
+      border:solid;
+      border-width:0.5px;
+    border-color: rgb(225, 87, 225);
+  
+  }
+
+  .rock-icon{
+    background-color:transparent;
+    height:70px;
+    border:none
+    
+  
+  }
+
+  .paper-icon{
+    background-color:transparent;
+    height:70px;
+    border:none
+  }
+
+  .scissors-icon{
+    background-color:transparent;
+    height:70px;
+    border:none
+  }
+
+  .developer-icon{
+    
+    height:50px;
+    border-radius:10px;
+    margin-top:5px;
+    margin-left:5px
+  }
+
+  .YouChose{
+    color:brown;
+    font-size: 30px;
+  }
+
+  .Move{
+    color:blue;
+    font-size: 35px;
+
+  }

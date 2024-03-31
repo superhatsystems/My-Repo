@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+button{
+    height:70px;
+    border:none;
+    background-color: transparent;
+}
+
+img{
+    height: 60px;
+    border-radius: 30px;
+}

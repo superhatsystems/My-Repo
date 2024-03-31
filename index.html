@@ -1,79 +1,215 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Rock Paper Scissors</title>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+
+    .hide{
+            display:none;
+        }
+
+    body{
+        background-image: url(enyicorp-files/index-images/enyicorp-web-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+    }
 
  
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+    .logo{
+        height:300px;
+        margin-bottom: 30px;
+        border-radius:100px;
+
+    }
+
+    .organisations-icon{
+        height:100px;
+        border-radius:50px;}
+
+        .organisations-btn{
+         height:100px;
+        background-color:rgba(241, 17, 170, 0.596);
+        border-radius:50px;
+        margin-bottom: 50px;
+        border-color: aliceblue;
+        cursor:pointer}
+
+    .contact-icon{
+        height:88px;
+        border-radius:60px;}
+
+        .contact-btn{
+         height:90px;
+        background-color:rgba(126, 59, 104, 0.596);
+        border-radius:60px;
+        margin-bottom: 30px;
+        border-color: aliceblue;
+        cursor:pointer}
+
+    .about-icon{
+        height:100px;
+        border-radius:50px;}
+
+        
+        .about-btn{
+         height:100px;
+        background-color:transparent;
+        border:none;
+        margin-bottom: 30px;
+        cursor:pointer}
+
+        .whatsapp-icon{
+        height:75px;
+        background-color:transparent;   
+        cursor:pointer;
+        margin-top: 30px;
+        }
+
+        .facebook-icon{
+        height:100px;
+        background-color:transparent;
+        border-radius: 140px;
+        cursor:pointer;}
+        
+
+        .instagram-icon{
+        height:100px;
+        background-color:transparent;
+        border-radius: 80px;
+        cursor:pointer}
+
+        .twitter-icon{
+        height:88px;
+        background-color:transparent;
+        border-radius: 80px;
+        cursor:pointer;}
+
+        .linkedin-icon{
+        height:90px;
+        background-color:transparent;
+        border-radius: 80px;
+        cursor:pointer;
+        margin-bottom: 10px;}
+
+        .youtube-icon{
+        height:100px;
+        background-color:transparent;
+        border-radius: 80px;
+        cursor:pointer;
+        margin-bottom: 40px;}
+
+        div{
+            color:white;
+            text-align: center;
+        }
+
+        P{
+            color:white;
+            text-align: center;
+            margin-top: 0px;
+        }
+        .phonenumber{
+            color:aliceblue;
+            background-color:rgba(241, 17, 170, 0.8);
+            font-size: 20px; 
+            cursor:pointer;}   
 
 
-<h3 class="for">OAK HILLS INTERNATIONAL SCHOOL,LAFIA</h3>
-<P class="g">MY GAME PROJECT</P>
+   </style>
+</head>
+<body>
+    <section>
+        <section>
 
-<div><h3><p class="OF">RULES OF THE GAME
- <b><p>rock beat scissors</p></b>
- <b></b>
-<b> <p>paper beat rock</p></b>
- <b> <p>scissors beat paper</p></b>
-  <p>instruction:click on any button and see the result.</p>
-</h3></p></div>
+            <button class="organisations-btn"  onclick="showHideBusiness()"><img class="organisations-icon" src="enyicorp-files/index-images/organisations-icon.png"> <p>ORGANISATIONS</p></button>
+        </section>
 
-    <div>
-      <h3></h3>
-      <p>Rock Paper Scissors</p>
-      <button onclick="
-        playGame('rock');
-      "><img src=/images/rock-emoji.png class="rock-icon"></button>
-  
-      <button onclick="
-        playGame('paper');
-      "><img src=/images/paper-emoji.png class="paper-icon"></button>
-  
-      <button onclick="
-        playGame('scissors');
-      "><img src=/images/scissors-emoji.png class="scissors-icon"></button>
-  
-      <p class="js-result"></p>
-      <p class="js-moves"></p>
-      <p class="js-score"></p>
-  
-      <button onclick="
-        score.wins = 0;
-        score.losses = 0;
-        score.ties = 0;
-        localStorage.removeItem('score');
-        updateScoreElement();
-      ">Reset Score</button>
-        </div>
-        <div>
-          <p>
-            <h3>
-              <img src=/images/fortune.jpg class="fortune-icon">
-            ABOUT MYSELF</h3>
-             hi guys, my name is Adewale Aseoluwa ,and i am 12 years old.<br>
-             A.K.A Ellon musk teacher.<br>
-             i want to become a doctor,computer scientist and a programmer,<br>
-             i love my programming teacher,because he teaches us well,and<br>
-             he's teaching are understandable,and he understand us well<br>
-            what i think about programming, is that it's very nice and<br>
-            quite easy,and i wish to become the greatest programmer,and<br>
-            program an AI(artificial inteligence).God held me.<br>
-          </p>
-        </div>
-        <div><p>tell me what you think about my project
-        </p>
+        <section class="business-section hide">
+            <div>
+                <div>SUPERHAT SYSTEMS</div>
+                <div><a href="superhat.html"><img class="logo" src="enyicorp-files/index-images/superhat-logo.png"></a></div>
+            </div>
 
+            <div>
+                <div>KICK EXPERT TEAKWONDO HUB</div>
+                <div><a href="kickx.html"><img class="logo" src="enyicorp-files/index-images/kickx-logo.png"></a></div>
+            </div>
 
- <input placeholder="type what you think......"><button class="nut" onclick=" 
- alert('thanks for your comment')
- "><img src=/images/send.jpg class="send-icon"></button>
-        </div>
+            <div>
+                <div>HOMBLEYS</div>
+                <div><a href="hombleys.html"><img class="logo" src="enyicorp-files/index-images/hombleys-logo.png"></a></div>
+            </div>
+        </section>
+    </section>
+          
+    <section>
+        <section>
 
-        <div>
-          <a href="sourcecodes.html">check out my source codes</a>
-          </div>
-    <script src="script.js"></script>
-  </body>
+            <button class="contact-btn" onclick="showHideContact()"><img class="contact-icon" src="enyicorp-files/index-images/contact-icon.png"><p>CONTACT</p></button>
+        </section>
+
+        <section class="contact-section hide">
+            <div>
+                <div>PHONE:<br> <a class="phonenumber" href="tel:09130222868">+2349130222868</a></div>
+                <div><a href="https://wa.me/+2349130222868?text=I'm%20interested%20in%20your%20product"><img class="whatsapp-icon" src="enyicorp-files/index-images/whatsapp-icon.png"></a></div>
+                <div><a href="https://facebook.com/enyiic/"><img class="facebook-icon" src="enyicorp-files/index-images/facebook-icon.png"></a></div>
+                <div><a href="https://www.instagram.com/enyi.ic/"><img class="instagram-icon" src="enyicorp-files/index-images/instagram-icon.png"></a></div>
+                <div><a><img class="twitter-icon" src="enyicorp-files/index-images/twitter-icon.png"></a></div>
+                <div><a><img class="linkedin-icon" src="enyicorp-files/index-images/linkedin-icon.png"></a></div>
+                <div><a href="Youtube.com/enyicorp"><img class="youtube-icon" src="enyicorp-files/index-images/youtube-icon.png"></a></div>
+                
+            </div>
+        </section>
+       
+
+        <section>
+            <section>
+    
+                <button class="about-btn" onclick="showHideAbout()"><img class="about-icon" src="enyicorp-files/index-images/about-icon.png"><p>ABOUT</p></button>
+            </section>
+    
+                <section class="about-section hide">
+                <div>
+                    <div>ABOUT ENYICORP.</div>
+                    <div><img class="logo" src="enyicorp-files/index-images/enyicorp-web-bg.png">
+                    <div>Established in November 2023,<br>as parent company to oversee the management<br>and growth of organisations within her scope.</div>
+                </div>
+                
+                </section>
+
+    
+    
+
+<script>
+       let businessSection = document.querySelector (".business-section") 
+       let contactSection = document.querySelector (".contact-section") 
+       let aboutSection = document.querySelector (".about-section") 
+     // let isShow = true
+    //    /* businessSection.style.display="none"*/
+    //    function showHideUsers(){
+    //     if(isShow){businessSection.style.display="none";
+    //     isShow = false;
+    // }
+    // else{businessSection.style.display="block";
+    //      isShow =true;}
+    //     }
+
+    function showHideBusiness(){
+        businessSection.classList.toggle("hide")
+       
+    }
+
+    function showHideContact(){
+        contactSection.classList.toggle("hide")
+    }
+
+    function showHideAbout(){
+        aboutSection.classList.toggle("hide")
+    }
+</script>
+
+</body>
 </html>
